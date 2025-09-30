@@ -482,7 +482,7 @@ export CLOVA_OCR_URL="clova ocr url"
 <img src = "./pictures/019.png">
 <img src = "./pictures/020.png">
 <img src = "./pictures/021.png">
-<img src = "./pictures/021.png">
+<img src = "./pictures/022.png">
 
 #### 6.2. 시연 영상
 
