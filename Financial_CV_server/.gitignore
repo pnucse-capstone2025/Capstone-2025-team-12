@@ -1,0 +1,45 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.env
+.env.*
+
+# Build & metadata
+dist/
+build/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# C/ML/모델/사전/라이브러리 큰 파일
+data/
+datasets/
+checkpoints/
+runs/
+logs/
+*.bin
+*.lib
+*.dll
+*.dic
+*.db
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.pkl
+*.joblib
+*.npz
+
+# Frontend
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db

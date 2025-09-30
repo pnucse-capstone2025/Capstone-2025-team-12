@@ -1,0 +1,117 @@
+.alert-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  border-radius: min(1.5vh, 12px);
+  padding: min(2vh, 16px);
+  margin: min(1.5vh, 12px) min(2vw, 20px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border: 1px solid #ccc;
+}
+
+.alert-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: min(1.8vh, 14px);
+  flex-wrap: wrap;
+  gap: min(1vh, 8px);
+}
+
+.alert-content > div {
+  margin-right: min(2vw, 16px);
+  flex: 1;
+  min-width: min(15vw, 120px);
+}
+
+.alert-status {
+  margin-left: min(2vw, 16px);
+  flex-shrink: 0;
+}
+
+.status-box {   
+  width: min(4vh, 32px);
+  height: min(4vh, 32px);
+  border-radius: min(1vh, 8px);
+  border: 2px solid red;
+}
+
+.status-box.completed {
+  background-color: rgb(15, 144, 19);
+  border: 2px solid green;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+/* 뷰포트 기반 반응형 미디어 쿼리 */
+@media (max-height: 600px) {
+  .alert-card {
+    margin: min(1vh, 8px) min(2vw, 10px);
+    padding: min(1.5vh, 10px);
+  }
+  
+  .alert-content {
+    font-size: min(1.6vh, 12px);
+  }
+  
+  .status-box {
+    width: min(3.5vh, 24px);
+    height: min(3.5vh, 24px);
+  }
+}
+
+@media (max-width: 768px) {
+  .alert-card {
+    margin: min(1.5vh, 12px) min(2vw, 15px);
+    padding: min(1.8vh, 12px);
+  }
+  
+  .alert-content {
+    font-size: min(1.7vh, 13px);
+  }
+  
+  .alert-content > div {
+    margin-right: min(1vw, 8px);
+    min-width: min(12vw, 100px);
+  }
+  
+  .status-box {
+    width: min(3.8vh, 28px);
+    height: min(3.8vh, 28px);
+  }
+}
+
+@media (max-width: 480px) {
+  .alert-card {
+    margin: min(1vh, 8px) min(2vw, 10px);
+    padding: min(1.5vh, 10px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: min(1vh, 8px);
+  }
+  
+  .alert-content {
+    width: 100%;
+    flex-direction: column;
+    gap: min(0.5vh, 4px);
+  }
+  
+  .alert-content > div {
+    margin-right: 0;
+    min-width: auto;
+  }
+  
+  .alert-status {
+    margin-left: 0;
+    align-self: flex-end;
+  }
+  
+  .status-box {
+    width: min(3.5vh, 24px);
+    height: min(3.5vh, 24px);
+  }
+}

@@ -1,0 +1,243 @@
+/* 페이지 상단 제목: '마이페이지' */
+h1 {
+  /* 화면 높이/폭에 따라 자연스럽게 변화 */
+  font-size: clamp(4vh, 4vh, 4vh);
+  line-height: 1.2;
+  font-weight: 800;
+  color: #111;
+  /* 좌우 여백은 가변, 위아래도 가변 */
+  margin: clamp(1.5vh, 1.5vh, 1.5vh) clamp(3vw, 3vw, 3vw);
+}
+
+/* 프로필 섹션 제목: '내 프로필' */
+.user-profile-section h2 {
+  /* 고정값 20px -> 반응형으로 교체 */
+  font-size: clamp(3vh, 3vh, 3vh);
+  line-height: 1.25;
+  font-weight: 700;
+  color: #343a40;
+  margin-bottom: clamp(1.2vh, 1.2vh, 1.2vh);
+  padding-bottom: clamp(1vh, 1vh, 1vh);
+  border-bottom: 1px solid #e9ecef;
+}
+
+/* ---------- 공통 토큰 ---------- */
+:root {
+  --space-xs: clamp(0.8vh, 0.8vh, 0.8vh);
+  --space-sm: clamp(1.2vh, 1.2vh, 1.2vh);
+  --space-md: clamp(1.6vh, 1.6vh, 1.6vh);
+  --space-lg: clamp(2vh, 2vh, 2vh);
+  --radius: clamp(1vh, 1vh, 1vh);
+  --border: 1px solid #ddd;
+
+  --fg: #111;
+  --fg-2: #495057;
+  --fg-3: #555;
+  --bg-card: #fff;
+  --bg-muted: #f8f9fa;
+  --line: #e9ecef;
+
+  --primary: #007bff;
+  --primary-hover: #0056b3;
+  --warn: #dc3545;
+  --secondary: #6c757d;
+  --gold: #ffc107;
+}
+
+/* ---------- 프로필 영역 ---------- */
+.user-profile-section {
+  background-color: var(--bg-muted);
+  padding: var(--space-lg);
+  border-radius: var(--radius);
+  margin: var(--space-lg);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.user-profile-section h2 {
+  font-size: clamp(2.2vh, 2.2vh, 2.2vh,);
+  color: var(--fg);
+  margin-bottom: var(--space-sm);
+  border-bottom: 1px solid var(--line);
+  padding-bottom: var(--space-sm);
+}
+
+.user-profile-section p {
+  margin-bottom: var(--space-xs);
+  font-size: clamp(2vh, 2vh, 2vh);
+  color: var(--fg-2);
+}
+
+.user-profile-section strong {
+  color: var(--fg);
+  margin-right: 5px;
+}
+
+/* ---------- 계좌 액션 버튼 영역 ---------- */
+.account-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-sm);
+  padding: 0 var(--space-lg);
+  flex-wrap: wrap;
+}
+
+.account-actions button {
+  padding: clamp(1.6vh, 1.6vh, 1.6vh) clamp(2vw, 2vw, 2vw);
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  background-color: var(--primary);
+  color: #fff;
+  white-space: nowrap;
+  font-size: clamp(1.9vh, 1.9vh, 1.9vh);
+  transition: background-color 0.2s ease, transform 0.06s ease;
+}
+
+.account-actions button:hover {
+  background-color: var(--primary-hover);
+}
+
+.account-actions button:focus-visible {
+  outline: 3px solid rgba(0, 0, 0, 0.15);
+  outline-offset: 2px;
+}
+
+.disabled-button {
+  background-color: #cccccc !important;
+  color: #666 !important;
+  cursor: not-allowed !important;
+}
+
+/* ---------- 계좌 리스트(Grid) ---------- */
+.account-list {
+  margin-top: var(--space-md);
+  padding: 0 var(--space-lg);
+
+  /* 카드 그리드: 화면 폭에 따라 1~N열 */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-sm);
+}
+
+/* 개별 계좌 카드 */
+.account-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-md);
+  border: var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-card);
+  flex-wrap: wrap;
+}
+
+/* 체크박스(편집 모드) */
+.account-item > input[type="checkbox"] {
+  transform: scale(1.1);
+  margin-right: var(--space-xs);
+  accent-color: var(--primary);
+}
+
+/* 좌측 정보 묶음 */
+.account-info {
+  display: flex;
+  align-items: center;
+  flex: 1 1 280px;
+  min-width: 0; /* 텍스트 오버플로우 제어 */
+  gap: var(--space-sm);
+}
+
+/* 대표계좌 별 */
+.star {
+  font-size: clamp(3vh, 3vh, 3vh);
+  cursor: pointer;
+  color: #ccc;
+  flex-shrink: 0;
+  transition: transform 0.06s ease;
+}
+
+.star.primary {
+  color: var(--gold);
+}
+
+.star:active {
+  transform: translateY(1px);
+}
+
+.star:focus-visible {
+  outline: 3px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/* 은행/계좌번호 텍스트 */
+.account-bank {
+  font-weight: 700;
+  color: var(--fg);
+  font-size: clamp(2vh, 2vh, 2vh);
+}
+
+.account-name {
+  color: var(--fg-3);
+  font-size: clamp(1.9vh, 1.9vh, 1.9vh);
+  word-break: break-all;
+}
+
+/* 잔액 */
+.account-balance {
+  font-size: clamp(2.4vh, 2.4vh, 2.4vh);
+  font-weight: 700;
+  text-align: right;
+  flex-shrink: 0;
+  color: var(--fg);
+}
+
+/* ---------- 하단 액션 버튼들 ---------- */
+.add-account-button,
+.edit-profile-button,
+.logout-button {
+  width: calc(100% - 2 * var(--space-lg));
+  margin: var(--space-sm) var(--space-lg) 0;
+  padding: clamp(10px, 2vh, 14px);
+  border-radius: var(--radius);
+  border: none;
+  font-weight: 800;
+  cursor: pointer;
+  font-size: clamp(2.1vh, 2.1vh, 2.1vh);
+  transition: filter 0.2s ease, transform 0.06s ease;
+}
+
+.add-account-button {
+  background-color: #000;
+  color: #fff;
+}
+
+.edit-profile-button {
+  background-color: var(--secondary);
+  color: #fff;
+}
+
+.logout-button {
+  background-color: var(--warn);
+  color: #fff;
+}
+
+.add-account-button:hover,
+.edit-profile-button:hover,
+.logout-button:hover {
+  filter: brightness(0.95);
+}
+
+.add-account-button:active,
+.edit-profile-button:active,
+.logout-button:active {
+  transform: translateY(1px);
+}
+
+.add-account-button:focus-visible,
+.edit-profile-button:focus-visible,
+.logout-button:focus-visible {
+  outline: 3px solid rgba(0, 0, 0, 0.15);
+  outline-offset: 2px;
+}

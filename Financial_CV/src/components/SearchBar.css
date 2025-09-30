@@ -1,0 +1,99 @@
+/* 컨테이너: 한 줄 유지 + 중앙 정렬 + 요소 간 간격 */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: nowrap;                     /* 한 줄 유지 */
+  gap: clamp(6px, 1vw, 1vh);            /* ✨ input과 button 사이 간격 */
+  margin: 0 auto;
+  margin-top: min(5vh, 50px);
+  padding: 0 min(2vw, 20px);
+  width: min(80vw, 560px);
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* 입력창: 남는 공간을 모두 차지 */
+.search-input {
+  flex: 1 1 auto;                        /* 가변 폭 */
+  min-width: 0;                          /* 내용 길어도 버튼 안 밀어냄 */
+  width: auto;
+  max-width: none;
+  padding: min(1vh, 8px) min(1.5vw, 12px);
+  font-size: min(3vh, 25px);
+  border: 2px solid black;
+  /* border-right: none;  <- 제거 */
+  border-radius: 6px;                     /* 각자 둥글게 */
+  box-sizing: border-box;
+}
+
+/* 버튼: 내용 기준 크기, 줄바꿈 금지 */
+.search-button {
+  flex: 0 0 auto;                        /* 고정 폭(내용 기준) */
+  padding: min(1vh, 8px) min(2vw, 16px);
+  font-size: min(3vh, 25px);
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 6px;                     /* 각자 둥글게 */
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.06s ease;
+  white-space: nowrap;                   /* 버튼 텍스트 줄바꿈 금지 */
+}
+
+.search-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.search-button:active {
+  transform: translateY(1px);
+}
+
+/* 낮은 화면 높이 */
+@media (max-height: 600px) {
+  .search-container {
+    margin-top: min(3vh, 20px);
+  }
+  .search-input {
+    font-size: min(2.5vh, 18px);
+    padding: min(0.8vh, 5px) min(1vw, 8px);
+  }
+  .search-button {
+    font-size: min(2.5vh, 18px);
+    padding: min(0.8vh, 5px) min(1.5vw, 10px);
+  }
+}
+
+/* 태블릿 이하 */
+@media (max-width: 768px) {
+  .search-container {
+    width: min(92vw, 560px);
+    padding: 0 min(2vw, 15px);
+    margin-top: min(4vh, 30px);
+  }
+  .search-input {
+    font-size: min(2.8vh, 20px);
+    padding: min(0.9vh, 6px) min(1.2vw, 10px);
+  }
+  .search-button {
+    font-size: min(2.8vh, 20px);
+    padding: min(0.9vh, 6px) min(1.8vw, 12px);
+  }
+}
+
+/* 모바일 */
+@media (max-width: 480px) {
+  .search-container {
+    width: 100%;
+    padding: 0 min(2vw, 10px);
+    margin-top: min(3vh, 20px);
+  }
+  .search-input {
+    font-size: min(2.5vh, 18px);
+    padding: min(0.8vh, 5px) min(1vw, 8px);
+  }
+  .search-button {
+    font-size: min(2.5vh, 18px);
+    padding: min(0.8vh, 5px) min(1.5vw, 10px);
+  }
+}

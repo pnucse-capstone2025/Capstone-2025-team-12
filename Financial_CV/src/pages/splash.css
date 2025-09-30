@@ -1,0 +1,87 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'GowunDodum', sans-serif;
+  background-color: #F3F7FB;
+  padding: min(2vh, 20px);
+}
+
+.logoImage {
+  width: 100%;
+  max-width: min(70vw, 500px); 
+  height: auto;
+  margin-bottom: min(1vh, 10px);
+}
+
+.textBox {
+  text-align: center;
+}
+
+.ment {
+  color: black;
+  font-size: min(4vh, 36px);
+  margin-bottom: min(1vh, 10px);
+}
+
+.team {
+  font-size: min(3vh, 28px);
+  color: gray;
+}
+
+/* 뷰포트 기반 반응형 미디어 쿼리 */
+@media (max-height: 600px) {
+  .wrapper {
+    padding: min(1.5vh, 10px);
+  }
+  
+  .logoImage {
+    max-width: min(60vw, 300px);
+  }
+  
+  .ment {
+    font-size: min(3vh, 24px);
+  }
+  
+  .team {
+    font-size: min(2.5vh, 18px);
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: min(2vh, 15px);
+  }
+  
+  .logoImage {
+    max-width: min(65vw, 400px);
+  }
+  
+  .ment {
+    font-size: min(3.5vh, 28px);
+  }
+  
+  .team {
+    font-size: min(2.8vh, 22px);
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    padding: min(1.5vh, 10px);
+  }
+  
+  .logoImage {
+    max-width: min(60vw, 300px);
+  }
+  
+  .ment {
+    font-size: min(3vh, 24px);
+  }
+  
+  .team {
+    font-size: min(2.5vh, 18px);
+  }
+}

@@ -1,0 +1,20 @@
+1. 로그인 => localstorage로
+2. document 저장할 때 현재 로그인 되어있는 id를 document_user_id에 넣어주면 되는거죠?
+localStorage를 구성할때 그 로그인했을때 반환되는 json형식처럼 만들고 그 로그인이 POST잖아. 유저 정보가 반환되는 걸로 알고 있는데
+
+RES:
+{
+  user_id,
+  user_name,
+  user_mail,
+  user_login_id,
+  created_at,
+  access_token
+}
+RES랑 똑같이 로컬스토리지 포맷팅 하면댐!
+
+결론 :
+localStorage로 로그인/회원가입 구현 변경하고(현재 sessionStorage 방식임)
+document가 등록될 때 지금은 누구 계정에서 등록하는지 모르잖아. 그래서 누가 로그인하던 이 때까지 저장된 모든 문서 다 보여주는 구조잖아.
+그거를 이제 현재 로그인하고 있는 사람 고유 id를 같이 넘겨줘서 해당 문서는 특정 user가 등록한거고 그 user가 로그인 했을 때만 해당 문서를
+서류 보관함에서 볼 수 있도록 하는거지.

@@ -1,0 +1,21 @@
+/* NavigationBar 반응형 스타일 */
+.navbar-brand-text {
+  padding-left: 1vh;
+  font-size: min(2.5vh, 2.5vh);
+  font-weight: bold;
+}
+
+.navbar-logo {
+  width: min(7vh, 7vh);
+  height: min(7vh, 7vh);
+  object-fit: contain;
+}
+
+.navbar-nav .nav-link {
+  font-size: min(1.6vh, 1.6vh);
+  padding: min(0.6vh, 0.5rem) min(0.8vw, 0.75rem);
+}
+
+.navbar-nav .nav-link i {
+  font-size: min(1.5vh, 1.2rem);
+}

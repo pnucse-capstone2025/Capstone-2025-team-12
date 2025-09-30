@@ -1,0 +1,1349 @@
+2025-08-29 16:55:12,607 INFO uvicorn.error - Started server process [22828]
+2025-08-29 16:55:12,609 INFO uvicorn.error - Waiting for application startup.
+2025-08-29 16:55:12,622 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T07:55:12.622224+00:00 (interval=30s)
+2025-08-29 16:55:12,622 INFO uvicorn.error - Application startup complete.
+2025-08-29 16:55:12,632 INFO reminder_scheduler - [poll] open transactions=7
+2025-08-29 16:55:42,644 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T07:55:42.644053+00:00 (interval=30s)
+2025-08-29 16:55:42,649 INFO reminder_scheduler - [poll] open transactions=7
+2025-08-29 16:56:12,660 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T07:56:12.660709+00:00 (interval=30s)
+2025-08-29 16:56:12,662 INFO reminder_scheduler - [poll] open transactions=7
+2025-08-29 16:56:42,668 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T07:56:42.668620+00:00 (interval=30s)
+2025-08-29 16:56:42,669 INFO reminder_scheduler - [poll] open transactions=7
+2025-08-29 16:57:12,683 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T07:57:12.683297+00:00 (interval=30s)
+2025-08-29 16:57:12,688 INFO reminder_scheduler - [poll] open transactions=7
+2025-08-29 16:57:36,640 INFO uvicorn.error - Shutting down
+2025-08-29 16:57:36,750 INFO uvicorn.error - Waiting for application shutdown.
+2025-08-29 16:57:36,751 INFO uvicorn.error - Application shutdown complete.
+2025-08-29 16:57:36,752 INFO uvicorn.error - Finished server process [22828]
+2025-08-29 16:57:53,849 INFO uvicorn.error - Started server process [9140]
+2025-08-29 16:57:53,851 INFO uvicorn.error - Waiting for application startup.
+2025-08-29 16:57:53,864 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T07:57:53.864564+00:00 (interval=30s)
+2025-08-29 16:57:53,873 INFO uvicorn.error - Application startup complete.
+2025-08-29 16:57:53,875 INFO reminder_scheduler - [poll] open transactions=7
+2025-08-29 16:57:58,254 INFO uvicorn.error - Shutting down
+2025-08-29 16:57:58,361 INFO uvicorn.error - Waiting for application shutdown.
+2025-08-29 16:57:58,362 INFO uvicorn.error - Application shutdown complete.
+2025-08-29 16:57:58,363 INFO uvicorn.error - Finished server process [9140]
+2025-08-29 16:58:14,910 INFO uvicorn.error - Started server process [14160]
+2025-08-29 16:58:14,912 INFO uvicorn.error - Waiting for application startup.
+2025-08-29 16:58:14,925 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T07:58:14.925938+00:00 (interval=30s)
+2025-08-29 16:58:14,925 INFO uvicorn.error - Application startup complete.
+2025-08-29 16:58:14,935 INFO reminder_scheduler - [poll] open transactions=7
+2025-08-29 16:58:14,937 ERROR uvicorn.error - Traceback (most recent call last):
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\성도범\PNU_CV_Final_Project\fininacial_CV_server\.venv\lib\site-packages\uvicorn\server.py", line 70, in serve
+    with self.capture_signals():
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\Users\성도범\PNU_CV_Final_Project\fininacial_CV_server\.venv\lib\site-packages\uvicorn\server.py", line 331, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\성도범\PNU_CV_Final_Project\fininacial_CV_server\.venv\lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\Users\성도범\PNU_CV_Final_Project\fininacial_CV_server\.venv\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2025-08-29 16:59:11,641 INFO uvicorn.error - Will watch for changes in these directories: ['C:\\Users\\성도범\\PNU_CV_Final_Project\\fininacial_CV_server']
+2025-08-29 16:59:11,642 INFO uvicorn.error - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2025-08-29 16:59:11,643 INFO uvicorn.error - Started reloader process [17056] using WatchFiles
+2025-08-29 16:59:14,273 INFO watchfiles.main - 7 changes detected
+2025-08-29 16:59:14,638 INFO watchfiles.main - 9 changes detected
+2025-08-29 16:59:15,001 INFO watchfiles.main - 21 changes detected
+2025-08-29 16:59:23,317 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:23,673 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:24,037 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:24,386 INFO uvicorn.error - Started server process [11536]
+2025-08-29 16:59:24,387 INFO uvicorn.error - Waiting for application startup.
+2025-08-29 16:59:24,398 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:24,398 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T07:59:24.398760+00:00 (interval=30s)
+2025-08-29 16:59:24,398 INFO uvicorn.error - Application startup complete.
+2025-08-29 16:59:24,406 INFO reminder_scheduler - [poll] open transactions=7
+2025-08-29 16:59:24,762 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:25,121 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:25,477 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:25,832 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:26,190 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:26,547 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:26,905 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:27,261 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:27,618 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:27,974 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:28,330 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:28,688 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:29,045 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:29,402 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:29,758 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:30,115 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:30,470 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:30,826 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:31,182 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:31,539 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:31,895 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:32,249 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:32,608 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:32,962 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:33,317 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:33,675 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:34,040 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:34,398 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:34,756 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:35,114 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:35,469 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:35,824 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:36,183 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:36,541 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:36,898 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:37,255 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:37,613 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:37,971 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:38,330 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:38,687 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:39,047 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:39,402 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:39,761 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:40,118 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:40,476 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:40,835 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:41,194 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:41,552 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:41,907 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:42,264 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:42,619 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:42,973 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:43,334 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:43,697 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:44,058 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:44,423 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:44,780 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:45,136 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:45,495 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:45,848 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:46,203 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:46,563 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:46,917 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:47,274 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:47,634 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:47,991 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:48,352 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:48,710 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:49,065 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:49,423 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:49,782 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:50,139 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:50,498 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:50,856 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:51,211 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:51,568 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:51,927 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:52,284 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:52,640 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:52,998 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:53,355 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:53,714 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:54,069 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:54,416 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T07:59:54.416967+00:00 (interval=30s)
+2025-08-29 16:59:54,421 INFO reminder_scheduler - [poll] open transactions=7
+2025-08-29 16:59:54,424 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:54,784 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:55,143 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:55,502 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:55,865 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:56,221 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:56,577 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:56,935 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:57,293 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:57,649 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:58,009 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:58,366 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:58,725 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:59,082 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:59,443 INFO watchfiles.main - 1 change detected
+2025-08-29 16:59:59,808 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:00,166 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:00,523 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:00,882 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:01,239 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:01,597 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:01,953 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:02,309 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:02,668 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:03,025 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:03,383 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:03,743 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:04,103 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:04,461 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:04,818 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:05,174 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:05,532 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:05,888 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:06,244 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:06,604 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:06,963 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:07,320 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:07,677 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:08,033 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:08,390 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:08,748 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:09,101 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:09,457 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:09,817 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:10,173 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:10,528 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:10,887 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:11,247 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:11,605 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:11,964 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:12,321 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:12,677 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:13,034 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:13,389 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:13,747 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:14,105 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:14,462 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:14,820 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:15,178 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:15,535 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:15,892 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:16,248 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:16,608 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:16,966 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:17,325 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:17,681 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:18,037 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:18,399 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:18,755 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:19,113 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:19,472 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:19,834 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:20,191 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:20,548 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:20,904 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:21,260 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:21,618 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:21,979 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:22,333 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:22,690 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:23,050 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:23,405 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:23,814 INFO watchfiles.main - 4 changes detected
+2025-08-29 17:00:24,219 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:24,424 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T08:00:24.424435+00:00 (interval=30s)
+2025-08-29 17:00:24,425 INFO reminder_scheduler - [poll] open transactions=8
+2025-08-29 17:00:24,425 INFO reminder_service - [poll] upsert attempt tx_id=8, user_id=0, due_at=2025-08-29T08:00:08.046000+00:00, title=120초 전 만기: string
+2025-08-29 17:00:24,480 INFO reminder_service - [poll] created reminder id=13 for tx_id=8 at 2025-08-29T08:00:08.046000+00:00
+2025-08-29 17:00:24,480 INFO reminder_scheduler - [create] reminder for tx_id=8 at 2025-08-29T08:00:08.046000+00:00 (120s prior)
+2025-08-29 17:00:24,571 INFO watchfiles.main - 4 changes detected
+2025-08-29 17:00:24,932 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:25,292 INFO watchfiles.main - 4 changes detected
+2025-08-29 17:00:25,650 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:26,008 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:26,367 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:26,728 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:27,086 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:27,442 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:27,799 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:28,158 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:28,519 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:28,876 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:29,232 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:29,591 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:29,944 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:30,303 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:30,657 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:31,012 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:31,369 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:31,725 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:32,079 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:32,435 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:32,791 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:33,148 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:33,506 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:33,865 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:34,223 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:34,581 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:34,939 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:35,298 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:35,655 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:36,011 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:36,369 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:36,728 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:37,086 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:37,446 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:37,801 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:38,159 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:38,516 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:38,873 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:39,230 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:39,587 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:39,941 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:40,298 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:40,658 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:41,017 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:41,374 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:41,736 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:42,094 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:42,454 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:42,813 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:43,169 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:43,527 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:43,885 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:44,243 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:44,598 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:44,957 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:45,314 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:45,671 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:46,029 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:46,386 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:46,743 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:47,101 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:47,457 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:47,815 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:48,169 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:48,525 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:48,882 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:49,239 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:49,596 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:49,954 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:50,312 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:50,668 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:51,025 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:51,383 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:51,742 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:52,100 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:52,460 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:52,817 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:53,173 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:53,531 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:53,892 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:54,249 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:54,490 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T08:00:54.490129+00:00 (interval=30s)
+2025-08-29 17:00:54,495 INFO reminder_scheduler - [poll] open transactions=9
+2025-08-29 17:00:54,496 INFO reminder_service - [poll] upsert attempt tx_id=8, user_id=0, due_at=2025-08-29T08:00:38.046000+00:00, title=90초 전 만기: string
+2025-08-29 17:00:54,554 INFO reminder_service - [poll] created reminder id=14 for tx_id=8 at 2025-08-29T08:00:38.046000+00:00
+2025-08-29 17:00:54,554 INFO reminder_scheduler - [create] reminder for tx_id=8 at 2025-08-29T08:00:38.046000+00:00 (90s prior)
+2025-08-29 17:00:54,556 INFO reminder_service - [poll] upsert attempt tx_id=9, user_id=0, due_at=2025-08-29T08:00:38.046000+00:00, title=90초 전 만기: string
+2025-08-29 17:00:54,588 INFO reminder_service - [poll] created reminder id=15 for tx_id=9 at 2025-08-29T08:00:38.046000+00:00
+2025-08-29 17:00:54,588 INFO reminder_scheduler - [create] reminder for tx_id=9 at 2025-08-29T08:00:38.046000+00:00 (90s prior)
+2025-08-29 17:00:54,607 INFO watchfiles.main - 4 changes detected
+2025-08-29 17:00:54,967 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:55,325 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:55,684 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:56,043 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:56,402 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:56,760 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:57,117 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:57,472 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:57,829 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:58,183 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:58,542 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:58,899 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:59,259 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:59,614 INFO watchfiles.main - 1 change detected
+2025-08-29 17:00:59,972 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:00,327 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:00,685 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:01,047 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:01,407 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:01,765 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:02,123 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:02,481 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:02,839 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:03,198 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:03,558 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:03,917 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:04,276 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:04,633 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:04,987 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:05,346 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:05,702 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:06,058 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:06,415 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:06,771 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:07,129 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:07,484 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:07,840 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:08,197 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:08,556 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:08,913 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:09,271 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:09,630 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:09,986 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:10,345 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:10,704 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:11,059 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:11,415 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:11,773 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:12,129 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:12,489 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:12,845 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:13,201 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:13,560 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:13,916 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:14,274 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:14,632 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:14,988 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:15,346 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:15,705 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:16,060 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:16,417 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:16,776 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:17,133 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:17,490 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:17,847 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:18,205 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:18,562 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:18,919 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:19,276 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:19,633 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:19,992 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:20,350 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:20,707 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:21,067 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:21,427 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:21,787 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:22,146 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:22,504 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:22,863 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:23,220 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:23,579 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:23,936 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:24,293 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:24,597 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T08:01:24.597780+00:00 (interval=30s)
+2025-08-29 17:01:24,598 INFO reminder_scheduler - [poll] open transactions=9
+2025-08-29 17:01:24,599 INFO reminder_service - [poll] upsert attempt tx_id=8, user_id=0, due_at=2025-08-29T08:01:08.046000+00:00, title=60초 전 만기: string
+2025-08-29 17:01:24,638 INFO reminder_service - [poll] created reminder id=16 for tx_id=8 at 2025-08-29T08:01:08.046000+00:00
+2025-08-29 17:01:24,639 INFO reminder_scheduler - [create] reminder for tx_id=8 at 2025-08-29T08:01:08.046000+00:00 (60s prior)
+2025-08-29 17:01:24,639 INFO reminder_service - [poll] upsert attempt tx_id=9, user_id=0, due_at=2025-08-29T08:01:08.046000+00:00, title=60초 전 만기: string
+2025-08-29 17:01:24,681 INFO reminder_service - [poll] created reminder id=17 for tx_id=9 at 2025-08-29T08:01:08.046000+00:00
+2025-08-29 17:01:24,682 INFO reminder_scheduler - [create] reminder for tx_id=9 at 2025-08-29T08:01:08.046000+00:00 (60s prior)
+2025-08-29 17:01:24,702 INFO watchfiles.main - 4 changes detected
+2025-08-29 17:01:25,058 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:25,414 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:25,769 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:26,128 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:26,484 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:26,840 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:27,195 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:27,551 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:27,909 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:28,269 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:28,628 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:28,985 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:29,342 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:29,700 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:30,057 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:30,415 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:30,775 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:31,135 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:31,493 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:31,853 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:32,211 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:32,571 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:32,928 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:33,286 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:33,644 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:34,006 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:34,362 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:34,720 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:35,080 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:35,437 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:35,796 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:36,154 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:36,513 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:36,869 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:37,224 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:37,585 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:37,943 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:38,302 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:38,656 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:39,016 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:39,375 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:39,735 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:40,095 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:40,454 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:40,811 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:41,169 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:41,527 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:41,884 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:42,244 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:42,655 INFO watchfiles.main - 2 changes detected
+2025-08-29 17:01:42,655 WARNING uvicorn.error - WatchFiles detected changes in 'main.py'. Reloading...
+2025-08-29 17:01:42,757 INFO uvicorn.error - Shutting down
+2025-08-29 17:01:42,867 INFO uvicorn.error - Waiting for application shutdown.
+2025-08-29 17:01:42,868 INFO uvicorn.error - Application shutdown complete.
+2025-08-29 17:01:42,869 INFO uvicorn.error - Finished server process [11536]
+2025-08-29 17:01:45,012 INFO watchfiles.main - 6 changes detected
+2025-08-29 17:01:47,586 INFO watchfiles.main - 7 changes detected
+2025-08-29 17:01:47,939 INFO watchfiles.main - 9 changes detected
+2025-08-29 17:01:48,301 INFO watchfiles.main - 20 changes detected
+2025-08-29 17:01:49,468 INFO watchfiles.main - 1 change detected
+2025-08-29 17:01:49,468 WARNING uvicorn.error - WatchFiles detected changes in 'main.py'. Reloading...
+2025-08-29 17:01:58,229 INFO uvicorn.error - Started server process [952]
+2025-08-29 17:01:58,231 INFO uvicorn.error - Waiting for application startup.
+2025-08-29 17:01:58,244 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T08:01:58.244359+00:00 (interval=30s)
+2025-08-29 17:01:58,245 INFO uvicorn.error - Application startup complete.
+2025-08-29 17:01:58,252 INFO reminder_scheduler - [poll] open transactions=9
+2025-08-29 17:01:58,252 INFO reminder_service - [poll] upsert attempt tx_id=8, user_id=0, due_at=2025-08-29T08:01:38.046000+00:00, title=30초 전 만기: string
+2025-08-29 17:01:58,256 ERROR uvicorn.error - Traceback (most recent call last):
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\성도범\PNU_CV_Final_Project\fininacial_CV_server\.venv\lib\site-packages\uvicorn\server.py", line 70, in serve
+    with self.capture_signals():
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\Users\성도범\PNU_CV_Final_Project\fininacial_CV_server\.venv\lib\site-packages\uvicorn\server.py", line 331, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\성도범\PNU_CV_Final_Project\fininacial_CV_server\.venv\lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\Users\성도범\PNU_CV_Final_Project\fininacial_CV_server\.venv\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2025-08-29 17:02:00,025 INFO watchfiles.main - 9 changes detected
+2025-08-29 17:02:02,248 INFO watchfiles.main - 7 changes detected
+2025-08-29 17:02:02,612 INFO watchfiles.main - 9 changes detected
+2025-08-29 17:02:02,976 INFO watchfiles.main - 21 changes detected
+2025-08-29 17:02:11,245 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:11,605 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:11,969 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:12,201 INFO uvicorn.error - Started server process [7748]
+2025-08-29 17:02:12,202 INFO uvicorn.error - Waiting for application startup.
+2025-08-29 17:02:12,213 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T08:02:12.213168+00:00 (interval=30s)
+2025-08-29 17:02:12,213 INFO uvicorn.error - Application startup complete.
+2025-08-29 17:02:12,232 INFO reminder_scheduler - [poll] open transactions=9
+2025-08-29 17:02:12,331 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:12,691 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:13,046 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:13,403 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:13,760 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:14,118 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:14,476 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:14,835 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:15,194 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:15,552 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:15,909 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:16,268 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:16,626 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:16,984 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:17,340 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:17,697 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:18,055 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:18,411 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:18,767 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:19,127 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:19,486 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:19,842 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:20,201 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:20,559 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:20,914 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:21,270 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:21,626 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:21,984 INFO watchfiles.main - 2 changes detected
+2025-08-29 17:02:21,984 WARNING uvicorn.error - WatchFiles detected changes in 'main.py'. Reloading...
+2025-08-29 17:02:22,023 INFO uvicorn.error - Shutting down
+2025-08-29 17:02:22,131 INFO uvicorn.error - Waiting for application shutdown.
+2025-08-29 17:02:22,136 INFO uvicorn.error - Application shutdown complete.
+2025-08-29 17:02:22,141 INFO uvicorn.error - Finished server process [7748]
+2025-08-29 17:02:23,981 INFO watchfiles.main - 6 changes detected
+2025-08-29 17:02:26,302 INFO watchfiles.main - 7 changes detected
+2025-08-29 17:02:26,657 INFO watchfiles.main - 9 changes detected
+2025-08-29 17:02:27,021 INFO watchfiles.main - 21 changes detected
+2025-08-29 17:02:35,392 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:35,751 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:36,113 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:36,361 INFO uvicorn.error - Started server process [24080]
+2025-08-29 17:02:36,362 INFO uvicorn.error - Waiting for application startup.
+2025-08-29 17:02:36,373 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T08:02:36.373676+00:00 (interval=30s)
+2025-08-29 17:02:36,379 INFO uvicorn.error - Application startup complete.
+2025-08-29 17:02:36,380 INFO reminder_scheduler - [poll] open transactions=9
+2025-08-29 17:02:36,476 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:36,834 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:37,193 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:37,547 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:37,905 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:38,263 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:38,620 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:38,977 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:39,333 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:39,691 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:40,049 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:40,406 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:40,763 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:41,117 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:41,477 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:41,836 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:42,196 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:42,553 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:42,915 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:43,273 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:43,634 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:43,992 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:44,350 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:44,707 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:45,065 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:45,423 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:45,781 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:46,140 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:46,498 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:46,859 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:47,218 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:47,578 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:47,935 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:48,292 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:48,654 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:49,012 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:49,370 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:49,730 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:50,089 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:50,446 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:50,802 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:51,159 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:51,516 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:51,876 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:52,237 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:52,596 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:52,957 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:53,316 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:53,673 INFO watchfiles.main - 2 changes detected
+2025-08-29 17:02:53,674 WARNING uvicorn.error - WatchFiles detected changes in 'main.py'. Reloading...
+2025-08-29 17:02:53,712 INFO uvicorn.error - Shutting down
+2025-08-29 17:02:53,820 INFO uvicorn.error - Waiting for application shutdown.
+2025-08-29 17:02:53,821 INFO uvicorn.error - Application shutdown complete.
+2025-08-29 17:02:53,821 INFO uvicorn.error - Finished server process [24080]
+2025-08-29 17:02:55,583 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:55,947 INFO watchfiles.main - 5 changes detected
+2025-08-29 17:02:57,471 INFO watchfiles.main - 1 change detected
+2025-08-29 17:02:57,471 WARNING uvicorn.error - WatchFiles detected changes in 'main.py'. Reloading...
+2025-08-29 17:03:08,738 INFO uvicorn.error - Started server process [24480]
+2025-08-29 17:03:08,740 INFO uvicorn.error - Waiting for application startup.
+2025-08-29 17:03:08,752 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T08:03:08.752335+00:00 (interval=30s)
+2025-08-29 17:03:08,752 INFO uvicorn.error - Application startup complete.
+2025-08-29 17:03:08,760 INFO reminder_scheduler - [poll] open transactions=9
+2025-08-29 17:03:08,762 ERROR uvicorn.error - Traceback (most recent call last):
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\성도범\PNU_CV_Final_Project\fininacial_CV_server\.venv\lib\site-packages\uvicorn\server.py", line 70, in serve
+    with self.capture_signals():
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\Users\성도범\PNU_CV_Final_Project\fininacial_CV_server\.venv\lib\site-packages\uvicorn\server.py", line 331, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\성도범\PNU_CV_Final_Project\fininacial_CV_server\.venv\lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\Users\성도범\PNU_CV_Final_Project\fininacial_CV_server\.venv\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2025-08-29 17:03:10,510 INFO watchfiles.main - 42 changes detected
+2025-08-29 17:03:12,781 INFO watchfiles.main - 7 changes detected
+2025-08-29 17:03:13,133 INFO watchfiles.main - 9 changes detected
+2025-08-29 17:03:13,495 INFO watchfiles.main - 21 changes detected
+2025-08-29 17:03:21,568 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:21,934 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:22,299 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:22,608 INFO uvicorn.error - Started server process [13436]
+2025-08-29 17:03:22,610 INFO uvicorn.error - Waiting for application startup.
+2025-08-29 17:03:22,619 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T08:03:22.619961+00:00 (interval=30s)
+2025-08-29 17:03:22,619 INFO uvicorn.error - Application startup complete.
+2025-08-29 17:03:22,626 INFO reminder_scheduler - [poll] open transactions=9
+2025-08-29 17:03:22,661 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:23,024 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:23,382 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:23,740 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:24,098 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:24,458 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:24,816 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:25,171 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:25,531 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:25,888 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:26,248 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:26,610 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:26,968 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:27,323 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:27,683 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:28,041 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:28,400 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:28,759 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:29,122 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:29,479 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:29,837 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:30,195 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:30,552 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:30,908 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:31,265 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:31,624 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:31,983 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:32,342 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:32,699 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:33,056 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:33,415 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:33,773 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:34,130 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:34,488 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:34,845 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:35,200 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:35,555 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:35,913 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:36,272 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:36,629 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:36,989 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:37,346 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:37,704 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:38,063 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:38,421 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:38,778 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:39,136 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:39,495 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:39,852 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:40,208 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:40,568 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:40,925 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:41,284 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:41,639 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:41,996 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:42,356 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:42,713 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:43,068 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:43,427 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:43,786 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:44,142 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:44,496 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:44,852 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:45,211 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:45,569 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:45,923 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:46,278 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:46,639 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:46,996 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:47,353 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:47,710 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:48,066 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:48,424 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:48,781 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:49,139 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:49,498 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:49,856 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:50,212 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:50,575 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:50,930 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:51,288 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:51,645 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:52,001 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:52,363 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:52,636 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T08:03:52.636923+00:00 (interval=30s)
+2025-08-29 17:03:52,637 INFO reminder_scheduler - [poll] open transactions=9
+2025-08-29 17:03:52,721 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:53,078 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:53,436 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:53,794 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:54,153 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:54,510 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:54,867 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:55,224 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:55,686 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:56,038 INFO watchfiles.main - 1 change detected
+2025-08-29 17:03:56,394 INFO watchfiles.main - 2 changes detected
+2025-08-29 17:03:56,395 WARNING uvicorn.error - WatchFiles detected changes in 'main.py'. Reloading...
+2025-08-29 17:03:56,496 INFO uvicorn.error - Shutting down
+2025-08-29 17:03:56,606 INFO uvicorn.error - Waiting for application shutdown.
+2025-08-29 17:03:56,607 INFO uvicorn.error - Application shutdown complete.
+2025-08-29 17:03:56,608 INFO uvicorn.error - Finished server process [13436]
+2025-08-29 17:03:58,470 INFO watchfiles.main - 7 changes detected
+2025-08-29 17:03:58,470 WARNING uvicorn.error - WatchFiles detected changes in 'main.py'. Reloading...
+2025-08-29 17:04:10,715 INFO uvicorn.error - Started server process [9176]
+2025-08-29 17:04:10,717 INFO uvicorn.error - Waiting for application startup.
+2025-08-29 17:04:10,729 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T08:04:10.729342+00:00 (interval=30s)
+2025-08-29 17:04:10,729 INFO uvicorn.error - Application startup complete.
+2025-08-29 17:04:10,739 INFO reminder_scheduler - [poll] open transactions=9
+2025-08-29 17:04:10,741 ERROR uvicorn.error - Traceback (most recent call last):
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\성도범\PNU_CV_Final_Project\fininacial_CV_server\.venv\lib\site-packages\uvicorn\server.py", line 70, in serve
+    with self.capture_signals():
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "C:\Users\성도범\PNU_CV_Final_Project\fininacial_CV_server\.venv\lib\site-packages\uvicorn\server.py", line 331, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\성도범\PNU_CV_Final_Project\fininacial_CV_server\.venv\lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\Users\성도범\PNU_CV_Final_Project\fininacial_CV_server\.venv\lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+  File "C:\Users\성도범\AppData\Local\Programs\Python\Python310\lib\asyncio\queues.py", line 159, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2025-08-29 17:04:12,507 INFO watchfiles.main - 37 changes detected
+2025-08-29 17:04:14,779 INFO watchfiles.main - 7 changes detected
+2025-08-29 17:04:15,140 INFO watchfiles.main - 9 changes detected
+2025-08-29 17:04:15,505 INFO watchfiles.main - 21 changes detected
+2025-08-29 17:04:23,571 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:23,923 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:24,287 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:24,550 INFO uvicorn.error - Started server process [23820]
+2025-08-29 17:04:24,552 INFO uvicorn.error - Waiting for application startup.
+2025-08-29 17:04:24,562 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T08:04:24.562430+00:00 (interval=30s)
+2025-08-29 17:04:24,563 INFO uvicorn.error - Application startup complete.
+2025-08-29 17:04:24,571 INFO reminder_scheduler - [poll] open transactions=9
+2025-08-29 17:04:24,648 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:25,009 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:25,370 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:25,728 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:26,085 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:26,444 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:26,801 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:27,160 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:27,515 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:27,869 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:28,225 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:28,583 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:28,941 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:29,298 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:29,656 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:30,014 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:30,374 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:30,732 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:31,089 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:31,446 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:31,802 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:32,158 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:32,513 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:32,869 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:33,228 INFO watchfiles.main - 2 changes detected
+2025-08-29 17:04:33,228 WARNING uvicorn.error - WatchFiles detected changes in 'main.py'. Reloading...
+2025-08-29 17:04:33,266 INFO uvicorn.error - Shutting down
+2025-08-29 17:04:33,375 INFO uvicorn.error - Waiting for application shutdown.
+2025-08-29 17:04:33,380 INFO uvicorn.error - Application shutdown complete.
+2025-08-29 17:04:33,385 INFO uvicorn.error - Finished server process [23820]
+2025-08-29 17:04:35,210 INFO watchfiles.main - 6 changes detected
+2025-08-29 17:04:37,430 INFO watchfiles.main - 7 changes detected
+2025-08-29 17:04:37,796 INFO watchfiles.main - 9 changes detected
+2025-08-29 17:04:38,153 INFO watchfiles.main - 21 changes detected
+2025-08-29 17:04:46,073 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:46,425 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:46,790 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:47,146 INFO uvicorn.error - Started server process [20224]
+2025-08-29 17:04:47,147 INFO uvicorn.error - Waiting for application startup.
+2025-08-29 17:04:47,152 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:47,160 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T08:04:47.160657+00:00 (interval=30s)
+2025-08-29 17:04:47,160 INFO uvicorn.error - Application startup complete.
+2025-08-29 17:04:47,167 INFO reminder_scheduler - [poll] open transactions=9
+2025-08-29 17:04:47,515 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:47,873 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:48,232 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:48,587 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:48,943 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:49,298 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:49,655 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:50,015 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:50,372 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:50,730 INFO watchfiles.main - 1 change detected
+2025-08-29 17:04:51,091 INFO watchfiles.main - 2 changes detected
+2025-08-29 17:04:51,091 WARNING uvicorn.error - WatchFiles detected changes in 'main.py'. Reloading...
+2025-08-29 17:04:51,193 INFO uvicorn.error - Shutting down
+2025-08-29 17:04:51,302 INFO uvicorn.error - Waiting for application shutdown.
+2025-08-29 17:04:51,303 INFO uvicorn.error - Application shutdown complete.
+2025-08-29 17:04:51,304 INFO uvicorn.error - Finished server process [20224]
+2025-08-29 17:04:53,133 INFO watchfiles.main - 6 changes detected
+2025-08-29 17:04:55,355 INFO watchfiles.main - 7 changes detected
+2025-08-29 17:04:55,718 INFO watchfiles.main - 9 changes detected
+2025-08-29 17:04:56,078 INFO watchfiles.main - 21 changes detected
+2025-08-29 17:05:03,942 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:04,297 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:04,662 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:04,985 INFO uvicorn.error - Started server process [5068]
+2025-08-29 17:05:04,986 INFO uvicorn.error - Waiting for application startup.
+2025-08-29 17:05:04,996 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T08:05:04.996551+00:00 (interval=30s)
+2025-08-29 17:05:05,001 INFO uvicorn.error - Application startup complete.
+2025-08-29 17:05:05,003 INFO reminder_scheduler - [poll] open transactions=9
+2025-08-29 17:05:05,025 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:05,386 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:05,743 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:06,099 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:06,459 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:06,817 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:07,174 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:07,533 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:07,891 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:08,246 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:08,606 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:08,966 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:09,324 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:09,683 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:10,039 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:10,396 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:10,755 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:11,113 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:11,470 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:11,827 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:12,181 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:12,542 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:12,902 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:13,259 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:13,617 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:13,976 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:14,336 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:14,691 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:15,051 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:15,406 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:15,766 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:16,121 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:16,480 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:16,838 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:17,196 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:17,553 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:17,912 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:18,269 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:18,627 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:18,984 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:19,338 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:19,694 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:20,050 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:20,409 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:20,770 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:21,125 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:21,486 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:21,845 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:22,203 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:22,560 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:22,918 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:23,278 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:23,634 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:23,992 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:24,348 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:24,705 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:25,063 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:25,419 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:25,775 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:26,134 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:26,494 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:26,856 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:27,212 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:27,571 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:27,928 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:28,285 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:28,646 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:29,005 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:29,366 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:29,723 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:30,080 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:30,440 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:30,797 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:31,154 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:31,513 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:31,876 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:32,233 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:32,594 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:32,954 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:33,308 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:33,667 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:34,024 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:34,381 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:34,739 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:35,012 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T08:05:35.012532+00:00 (interval=30s)
+2025-08-29 17:05:35,013 INFO reminder_scheduler - [poll] open transactions=9
+2025-08-29 17:05:35,097 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:35,454 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:35,813 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:36,170 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:36,531 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:36,892 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:37,252 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:37,610 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:37,970 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:38,332 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:38,692 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:39,047 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:39,406 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:39,763 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:40,123 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:40,484 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:40,848 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:41,206 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:41,566 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:41,923 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:42,279 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:42,640 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:42,997 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:43,357 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:43,715 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:44,075 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:44,433 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:44,792 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:45,149 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:45,508 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:45,867 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:46,224 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:46,580 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:46,941 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:47,300 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:47,658 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:48,017 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:48,374 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:48,735 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:49,095 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:49,453 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:49,811 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:50,171 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:50,532 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:50,893 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:51,254 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:51,613 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:51,970 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:52,330 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:52,688 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:53,047 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:53,406 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:53,766 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:54,126 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:54,485 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:54,841 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:55,201 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:55,558 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:55,918 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:56,278 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:56,635 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:56,994 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:57,353 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:57,714 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:58,073 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:58,434 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:58,792 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:59,149 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:59,507 INFO watchfiles.main - 1 change detected
+2025-08-29 17:05:59,868 INFO watchfiles.main - 1 change detected
+2025-08-29 17:06:00,225 INFO watchfiles.main - 1 change detected
+2025-08-29 17:06:00,584 INFO watchfiles.main - 1 change detected
+2025-08-29 17:06:00,944 INFO watchfiles.main - 1 change detected
+2025-08-29 17:06:01,302 INFO watchfiles.main - 1 change detected
+2025-08-29 17:06:01,661 INFO watchfiles.main - 1 change detected
+2025-08-29 17:06:02,020 INFO watchfiles.main - 1 change detected
+2025-08-29 17:06:02,379 INFO watchfiles.main - 1 change detected
+2025-08-29 17:06:02,739 INFO watchfiles.main - 1 change detected
+2025-08-29 17:06:03,101 INFO watchfiles.main - 1 change detected
+2025-08-29 17:06:03,460 INFO watchfiles.main - 1 change detected
+2025-08-29 17:06:03,817 INFO watchfiles.main - 1 change detected
+2025-08-29 17:06:04,174 INFO watchfiles.main - 1 change detected
+2025-08-29 17:06:04,535 INFO watchfiles.main - 1 change detected
+2025-08-29 17:06:04,895 INFO watchfiles.main - 1 change detected
+2025-08-29 17:06:05,015 INFO reminder_scheduler - [poll] reminder scheduler tick at 2025-08-29T08:06:05.015784+00:00 (interval=30s)
+2025-08-29 17:06:05,016 INFO reminder_scheduler - [poll] open transactions=9
+2025-08-29 17:06:05,256 INFO watchfiles.main - 1 change detected
+2025-08-29 17:06:05,610 INFO watchfiles.main - 1 change detected
+2025-08-29 17:06:05,971 INFO watchfiles.main - 1 change detected
+2025-08-29 17:06:06,379 INFO watchfiles.main - 2 changes detected
+2025-08-29 17:06:06,379 WARNING uvicorn.error - WatchFiles detected changes in 'main.py'. Reloading...
+2025-08-29 17:06:06,431 INFO uvicorn.error - Shutting down
+2025-08-29 17:06:06,540 INFO uvicorn.error - Waiting for application shutdown.
+2025-08-29 17:06:06,541 INFO uvicorn.error - Application shutdown complete.
+2025-08-29 17:06:06,542 INFO uvicorn.error - Finished server process [5068]
+2025-08-29 17:06:08,694 INFO watchfiles.main - 6 changes detected
+2025-08-29 17:06:11,217 INFO watchfiles.main - 7 changes detected
+2025-08-29 17:06:11,583 INFO watchfiles.main - 9 changes detected
+2025-08-29 17:06:11,944 INFO watchfiles.main - 21 changes detected
+2025-08-29 17:06:19,766 INFO watchfiles.main - 1 change detected
+2025-08-29 17:06:19,766 WARNING uvicorn.error - WatchFiles detected changes in 'main.py'. Reloading...
+2025-08-29 17:06:24,455 INFO watchfiles.main - 6 changes detected
+2025-08-29 17:06:26,673 INFO watchfiles.main - 7 changes detected
+2025-08-29 17:06:27,033 INFO watchfiles.main - 9 changes detected
+2025-08-29 17:06:27,444 INFO watchfiles.main - 21 changes detected
+2025-08-29 17:07:42,820 INFO watchfiles.main - 1 change detected
+2025-08-29 17:07:42,820 WARNING uvicorn.error - WatchFiles detected changes in 'main.py'. Reloading...
+2025-08-29 17:07:44,824 INFO watchfiles.main - 5 changes detected
+2025-08-29 17:07:47,196 INFO watchfiles.main - 7 changes detected
+2025-08-29 17:07:47,558 INFO watchfiles.main - 9 changes detected
+2025-08-29 17:07:47,915 INFO watchfiles.main - 21 changes detected
+2025-08-29 17:08:49,959 INFO watchfiles.main - 3 changes detected
+2025-08-29 17:09:05,221 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:05,572 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:05,930 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:06,286 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:06,646 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:07,001 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:07,359 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:07,715 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:08,074 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:08,430 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:08,787 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:09,145 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:09,505 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:09,864 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:10,222 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:10,579 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:10,939 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:11,298 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:11,656 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:12,014 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:12,370 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:12,727 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:13,083 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:13,438 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:13,797 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:14,155 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:14,512 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:14,868 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:15,227 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:15,585 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:15,941 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:16,296 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:16,652 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:17,008 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:17,367 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:17,724 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:18,084 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:18,440 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:18,798 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:19,155 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:19,512 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:19,872 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:20,235 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:20,592 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:20,954 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:21,312 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:21,668 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:22,024 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:22,383 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:22,740 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:23,099 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:23,459 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:23,815 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:24,173 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:24,534 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:24,898 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:25,263 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:25,623 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:25,987 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:26,344 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:26,702 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:27,161 INFO watchfiles.main - 4 changes detected
+2025-08-29 17:09:34,271 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:34,628 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:34,989 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:35,348 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:35,704 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:36,063 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:36,422 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:36,781 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:37,139 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:37,495 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:37,851 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:38,208 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:38,564 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:38,921 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:39,278 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:39,639 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:39,996 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:40,355 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:40,716 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:41,074 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:41,432 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:41,791 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:42,151 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:42,509 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:42,868 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:43,224 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:43,582 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:43,941 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:44,297 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:44,653 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:45,011 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:45,368 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:45,726 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:46,085 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:46,445 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:46,800 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:47,157 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:47,515 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:47,877 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:48,237 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:48,594 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:48,951 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:49,307 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:49,662 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:50,018 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:50,379 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:50,737 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:51,094 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:51,452 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:51,810 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:52,168 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:52,528 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:52,885 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:53,244 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:53,602 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:53,963 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:54,321 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:54,678 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:55,036 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:55,394 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:55,755 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:56,117 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:56,475 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:56,834 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:57,292 INFO watchfiles.main - 4 changes detected
+2025-08-29 17:09:57,660 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:58,016 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:58,371 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:58,730 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:59,087 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:59,444 INFO watchfiles.main - 1 change detected
+2025-08-29 17:09:59,801 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:00,163 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:00,516 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:00,874 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:01,231 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:01,587 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:01,944 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:02,302 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:02,659 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:03,020 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:03,378 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:03,736 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:04,095 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:04,454 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:04,812 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:05,169 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:05,530 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:05,884 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:06,243 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:06,605 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:06,965 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:07,325 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:07,682 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:08,039 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:08,601 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:08,959 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:09,320 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:09,678 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:10,034 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:10,391 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:10,750 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:11,109 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:11,464 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:11,824 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:12,180 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:12,537 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:12,896 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:13,253 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:13,612 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:13,970 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:14,328 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:14,686 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:15,044 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:15,401 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:15,759 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:16,116 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:16,472 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:16,831 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:17,187 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:17,546 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:17,903 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:18,262 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:18,619 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:18,974 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:19,331 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:19,687 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:20,044 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:20,402 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:20,762 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:21,120 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:21,478 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:21,839 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:22,199 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:22,557 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:22,914 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:23,273 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:23,630 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:23,988 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:24,345 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:24,703 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:25,061 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:25,417 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:25,774 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:26,133 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:26,491 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:26,849 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:27,204 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:27,562 INFO watchfiles.main - 4 changes detected
+2025-08-29 17:10:27,917 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:28,276 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:28,633 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:28,990 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:29,342 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:29,703 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:30,061 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:30,419 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:30,775 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:31,136 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:31,495 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:31,851 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:32,209 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:32,570 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:32,927 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:33,284 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:33,640 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:33,999 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:34,358 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:34,717 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:35,074 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:35,430 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:35,787 INFO watchfiles.main - 1 change detected
+2025-08-29 17:10:37,368 INFO uvicorn.error - Stopping reloader process [17056]

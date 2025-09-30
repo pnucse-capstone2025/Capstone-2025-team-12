@@ -1,0 +1,12 @@
+uvicorn main:app --reload `
+  --reload-dir app `
+  --reload-include '*.py' `
+  --reload-exclude 'node_modules/*' `
+  --reload-exclude 'frontend/*' `
+  --reload-exclude '*.db' `
+  --reload-exclude '*.db-journal' `
+  --reload-exclude '*.sqlite3' `
+  --reload-exclude '*.log' `
+  --reload-exclude '**/__pycache__/*' `
+  --reload-exclude '**/.pytest_cache/*' `
+  --reload-exclude '**/.mypy_cache/*'
